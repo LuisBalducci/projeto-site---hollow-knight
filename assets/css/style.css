@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Noto Serif", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+    position: relative;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+nav{
+    position: relative;
+}
+.navbar-items{
+    list-style: none;
+    position: absolute;
+    height: 80px;
+    line-height: 80px;
+    margin-right: 15px;
+    right: 10px;
+    top: 0;
+}
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+.navbar-items li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navbar-items li a:hover{
+    color: #304fb3;
+}
+.background{
+    background-image: url(../img/banne.avif);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff00;
+}
+.service-container{
+    padding: 5em 0;
+    background-color: black;
+}
+.service-container ul{
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    color: white;
+    gap: 5%;
+}
+.service-container ul li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+.caixa{
+    border-radius: 5px;
+}
+.caixa1 .primeiro{
+    background-color: #304fb3;
+}
+.caixa1 .segundo{
+    background-color: #304fb3;
+}
+.caixa1 .terceiro{
+    background-color: #304fb3;
+}
+.caixa:hover{
+    background-color: #FFFFFF;
+    color: #304fb3;
+    transition: 0.5s;
+}
+.fa-solid{
+    font-size: 50px;
+    left: 100px;
+    margin-bottom: 5px;
+}
+.fotos-container h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    border-bottom: 1px solid white;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.fotos img{
+    width: 500px;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top center;
+}
+.fotos img:hover{
+    transform: scale(1.6);
+    transition: 0.5s;
+    border: 1px solid white;
+}
+#todas-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1500px;
+    min-width: 320px;
+    margin: 90px auto;
+    justify-content: space-between;
+}
+.historia h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    border-bottom: 1px solid white;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.historia h3{
+    color: white;
+    margin: 60px auto;
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.plataformas{
+    color: white;
+    background-color: #304fb3;
+    text-align: center;
+}
+.icons{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.icons i:hover{
+    color: black;
+}
+.tabela{
+    color: white;
+    margin: 60px auto; 
+    margin: 60px auto;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.tabela td, .tabela th{
+    border: 1px solid #304fb3;
+    padding: 2px;
+}
+.tabela tr{
+   text-align: center;
+}
+.detalhes{
+    color: white;
+    text-align: center;
+    margin: 60px auto;
+    font-size: 35px;
+    border-bottom: #FFFFFF 1px solid;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.tabela{
+    display: flex;
+}
+.tabela table{
+    flex: 1 1 50%;
+}
